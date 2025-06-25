@@ -1,3 +1,24 @@
 <?php
-echo "Bienvenue sur l'application de gestion des notes de frais";
+// Page d'accueil pour l'application de gestion des notes de frais
 ?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestion des notes de frais</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Notes de Frais</a>
+    </div>
+</nav>
+<div class="container py-5">
+    <h1 class="display-4">Bienvenue sur l'application de gestion des notes de frais</h1>
+    <p class="lead">Cette interface est conçue avec Bootstrap pour être responsive et moderne.</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
